@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --settings-color: #00b594;
+    --search-color: #b8b4b4;
+    --line-color: #00a49c;
+    --all-notes: #259984;
+    --container-color: #505554;
+
+}
+
+.wrapper{
+    margin: auto;
+    padding: auto;
+    width: 1180;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    min-height: 75vh;
+    
+}
+
+
+span{
+    color: white;
+}
+
+.settings h1{
+    padding-top: -10px;
+    font-weight: 1000px;
+    font-size: 280%;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.settings-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--settings-color);
+    display: flex;
+    height: 945px;
+    width: 250px;
+}
+
+.options{
+    padding-top: 45px;
+}
+
+.options p{
+    margin-top: 15px;
+    font-size: 120%;
+}
+
+.footer{
+    padding-top: 550px;
+}
+
+.footer p{
+  font-size: 120%;
+}
+
+.header{
+  margin-top: -905px;
+  margin-left: -1170px;
+  justify-content: center;
+  text-align: center;
+}
+
+.header h1{
+    padding-top: -20px;
+    font-size: 200%;
+    padding-left: 70px;
+}
+
+.header p{
+    padding-left: 2890px;
+    margin-top: -45px;
+}
+
+.search {
+    align-items: center;
+    padding-left: 2250px;
+    margin-top: -27px; 
+}
+
+.search-input {
+    font-size: 18px;
+    height: 40px;
+    width: 350px;
+    border-radius: 15px;
+    padding-left: 20px;
+    border-color: var(--search-color);
+}
+
+.divider {
+    width: 130px;
+    margin-left: 60px;
+    height: 3.5px;
+    background-color: var(--line-color);
+    display: inline-block;
+}
+
+.white p{
+    color: white;
+    background-color: var(--all-notes);
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+.upper-container{
+    flex: row;
+    display: flex;
+    padding-left: 400px;
+    padding-top: 31.5px;
+    justify-content: center;
+   
+}
+
+.upper-container p{
+    font-size: 14.5px;
+    margin-left: 20px;
+    
+
+}
+
+.upper-container h2{
+    margin-top: 20px;
+    margin-bottom: 27px;
+    margin-left: 20px;
+
+}
+
+
+.mid-container{
+    flex: row;
+    display: flex;
+    padding-left: 400px;
+    padding-top: 18.5px;
+    justify-content: center;
+   
+}
+
+.mid-container p{
+    font-size: 14.5px;
+    margin-left: 20px;
+    
+
+}
+
+.mid-container h2{
+    margin-top: 20px;
+    margin-bottom: 27px;
+    margin-left: 20px;
+
+}
+
+
+
+
+.bottom-container{
+    flex: row;
+    display: flex;
+    padding-left: 400px;
+    padding-top: 18.5px;
+    justify-content: center;
+   
+}
+
+.bottom-container p{
+    font-size: 14.5px;
+    margin-left: 20px;
+    
+
+}
+
+.bottom-container h2{
+    margin-top: 20px;
+    margin-bottom: 27px;
+    margin-left: 20px;
+
+}
+
+
+.upper-left{
+    border: 2px solid var(--container-color);
+    border-radius: 10px;
+    border-width: 5%;
+    margin-right: 150px;
+    width: 285px;
+    height: 260px; 
+   
+    
+}
+
+.upper-middle{
+    border: 2px solid var(--container-color);
+    border-radius: 10px;
+    border-width: 5%; 
+    margin-right: 150px;
+    width: 285px;
+    height: 260px; 
+ 
+}
+
+.upper-right{
+    border: 2px solid var(--container-color);
+    border-radius: 10px;
+    border-width: 3.5%;
+    width: 285px;
+    height: 260px; 
+   
+}
+
+
+
+
+.mid-left{
+    border: 2px solid var(--container-color);
+    border-radius: 10px;
+    border-width: 5%;
+    margin-right: 150px;
+    width: 285px;
+    height: 260px;  
+   
+    
+}
+
+.mid-middle{
+    border: 2px solid var(--container-color);
+    border-radius: 10px;
+    border-width: 5%; 
+    margin-right: 150px;
+    width: 285px;
+    height: 260px; 
+ 
+}
+
+.mid-right{
+    border: 2px solid var(--container-color);
+    border-radius: 10px;
+    border-width: 3.5%;
+    width: 285px;
+    height: 260px;  
+   
+}
+
+
+
+
+.bottom-left{
+    border: 2px solid var(--container-color);
+    border-radius: 10px;
+    border-width: 5%;
+    margin-right: 150px;
+    width: 285px;
+    height: 260px; 
+   
+    
+}
+
+.bottom-middle{
+    border: 2px solid var(--container-color);
+    border-radius: 10px;
+    border-width: 5%; 
+    margin-right: 150px;
+    width: 285px;
+    height: 260px; 
+}
+
+.bottom-right{
+    border: 2px solid var(--container-color);
+    border-radius: 10px;
+    border-width: 3.5%;
+    width: 285px;
+    height: 260px; 
+   
+}
+
+
+
