@@ -104,7 +104,7 @@ h3{
 }
 
 
-.navbar a:hover{
+.navbar:hover{
     border-bottom: 3px solid var(--hover-color);
     color: var(--hover-color);
 }
