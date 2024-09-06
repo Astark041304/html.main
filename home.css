@@ -8,27 +8,29 @@
 
 :root{
     --hover-color: #733c7a;
-    --bg-color: #b3cbe6;
-    --button-color: #2ecc71;
-    --text-color: #242726ab;   
+    --bg-color: #cbe5fe;
+    --button-color: #00b594;
+    --text-color: #242726ab;
+    --white-color: #ffff;  
 }
 
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
+    background-color: rgba(255,255,255,255);
 }
 
 span{
-    color: #2ecc71;
+    color: #00b594;
 }
 
 h1{
     margin-top: 30px;
     margin-bottom: 35px;
-    font-weight: 700px;
-    font-size: 350%; 
+    font-size: 380%;
+    font-weight: 850; 
    
 }
 
@@ -39,8 +41,7 @@ h1{
 }
 
 .main-container{
-    justify-content: center;
-    align-items: center;
+    margin-left: -45px;
     padding-top: 150px;
     display: flex;
 }
@@ -62,8 +63,10 @@ h1{
 }
 
 .header h2{
-    font-weight: 550px;
-    font-size: 250%; 
+    font-size: 300%;
+    font-weight: 850;
+    margin-top: -20px;
+   
 }
 
 .navbar{
@@ -72,10 +75,13 @@ h1{
 }
 
 .navbar a{
-    font-size: 1.1rem;
-    margin-left: 1.5rem;
+    font-size: 1.3rem;
+    margin-left: 2.0rem;
     font-weight: 200;
-    transition: 0.3 ease;   
+    transition: 0.3 ease;
+    color: black;
+    font-weight: 650;
+    padding-top: 50px; 
 }
 
 
@@ -84,16 +90,14 @@ h1{
     color: var(--hover-color);
 }
 
-
-
 .text-container{
     justify-content: center;
     background-color: var(--bg-color);  
     display: flex;
-    width: 500px;
-    height: 560px;
-    margin-top: 40px;
-    margin-left: 7.5px;
+    width: 570px;
+    height: 640px;
+    margin-top: 100px;
+    margin-left: -10px;
 
 }
 
@@ -106,11 +110,36 @@ h1{
     margin-bottom: 10px;
 }
 
-.button .btn{
-    width: 180px;
+p{
+    font-size: 21px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+
+.btn{
+    position: absolute;
+    width: 250px;
     height: 45px;
     background-color: var(--button-color);
-    margin-top: -20px;
+    border-radius: 5px;
     color: white;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: -135px;
+    
+}
+
+.btn a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+
+.image img{
+    padding-top: 20px;
+    width: 700px;
+    padding-left: -10px;
 
 }

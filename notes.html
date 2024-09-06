@@ -5,25 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notes</title>
     <link rel="stylesheet" href="notes.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"/>
+    
 </head>
 <body>
-       <div class="wrap">
+
+      
         <div class="main-container">
         
             <div class="settings-container">
                 <div class="settings">
                     <h1>Note<span>It!</span></h1>
-
-                    <div class="options">
-
-                        <p>All Notes</p>
-                        <p>Favorites</p>
-                        <p>Archive</p>
-                        <p>Logout</p>
-                        
-                    </div>
+                        <nav>
+                            <ul>
+                              <li>
+                              <a href="#"><i class="fas fa-sticky-note"></i>All Notes</a>
+                             
+                             </li>
+                                
+                              <li>
+                                <a href="#"><i class="fas fa-heart"></i> Favorites</a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fas fa-box"></i> Archives</a>
+                              </li>
+                              <li>
+                                <a href="home.html"><i class="fas fa-power-off"></i> Logout</a>
+                              </li>
+                            </ul>
+                          </nav>
+                        <ul>
 
                     <div class="footer">
+
+                        <div class="circle"></div>
                         <h2>Hi William!</h2>
                         <p>Welcome back.</p>
                     </div>
@@ -33,15 +56,16 @@
 
             </div>
 
-            <div class="box"> 
-
+          
+     <div class="box"> 
             <div class="header">
                 <h1>All Notes</h1>
                 <!-- <hr> Horizontal Rule -->
                  <span class="divider"></span>
-                <p>Add Notes</p>
-
-
+                
+                 <div class="plus">
+                    <i class='fas fa-plus' id="plus"> Add Notes</i>
+                 </div>
                <form>
                 <div class="search">
                     <input class="search-input" type="search" placeholder="Search">
@@ -51,22 +75,25 @@
 
             </div>
 
-            </div>
+     </div>
 
             <div class="container">
 
             <div class="upper-container">
                 <div class="upper-left">
+                    <i class="fa-solid fa-ellipsis"></i>
                     <h2>Notes 1</h2>
                     <p>This is a sample notes printed <br>here.</p><br>
                     <p>Testing Notes are printed <br>here.......</p>
 
-                    <div class="foot">
+                    <div class="foot">    
+                    <div class="circle2"></div>
                         <p> March 3, 2024</p>
                     </div>
                 </div>
 
                 <div class="upper-middle">
+                    <i class="fa-solid fa-ellipsis"></i>
                     <h2>Notes 1</h2>
                     <p>This is a sample notes printed <br> here.</p><br>
                     <p>Testing Notes are printed <br>here.......</p>
@@ -77,6 +104,7 @@
                 </div>
 
                 <div class="upper-right">
+                    <i class="fa-solid fa-ellipsis"></i>
                     <h2>Notes 1</h2>
                     <p>This is a sample notes printed <br> here.</p><br>
                     <p>Testing Notes are printed <br>here.......</p>
@@ -91,9 +119,10 @@
             <div class="mid-container">
 
               <div class="mid-left">
+                <i class="fa-solid fa-ellipsis"></i>
                <h2>Notes 2</h2>
-               <p>This is a sample notes printed here.</p><br>
-               <p>Testing Notes are printed here.......</p>
+               <p>This is a sample notes printed <br>here.</p><br>
+               <p>Testing Notes are printed <br>here.......</p>
 
                <div class="foot">
                 <p> March 3, 2024</p>
@@ -103,9 +132,10 @@
 
     
                <div class="mid-middle">
+                <i class="fa-solid fa-ellipsis"></i>
                         <h2>Notes 2</h2>
-                        <p>This is a sample notes printed here.</p><br>
-                        <p>Testing Notes are printed here.......</p>
+                        <p>This is a sample notes printed <br>here.</p><br>
+                        <p>Testing Notes are printed <br>here.......</p>
 
                         <div class="foot">
                             <p> March 3, 2024</p>
@@ -113,11 +143,13 @@
                     </div>
     
                     <div class="mid-right">
+                        <i class="fa-solid fa-ellipsis"></i>
                         <h2>Notes 2</h2>
-                        <p>This is a sample notes printed here.</p><br>
-                        <p>Testing Notes are printed here.......</p>
+                        <p>This is a sample notes printed <br>here.</p><br>
+                        <p>Testing Notes are printed <br>here.......</p>
 
                         <div class="foot">
+                            <div class="circle2"></div>
                             <p> March 3, 2024</p>
                         </div>
                     </div>
@@ -127,9 +159,10 @@
             <div class="bottom-container">
 
                 <div class="bottom-left">
+                    <i class="fa-solid fa-ellipsis"></i>
                     <h2>Notes 3</h2>
-                    <p>This is a sample notes printed here.</p><br>
-                    <p>Testing Notes are printed here.......</p>
+                    <p>This is a sample notes printed <br>here.</p><br>
+                    <p>Testing Notes are printed <br>here.......</p>
 
                     <div class="foot">
                         <p> March 3, 2024</p>
@@ -139,19 +172,22 @@
      
          
                   <div class="bottom-middle">
+                    <i class="fa-solid fa-ellipsis"></i>
                              <h2>Notes 3</h2>
-                             <p>This is a sample notes printed here.</p><br>
-                             <p>Testing Notes are printed here.......</p>
+                             <p>This is a sample notes printed <br>here.</p><br>
+                             <p>Testing Notes are printed <br>here.......</p>
 
                              <div class="foot">
+                                <div class="circle2"></div>
                                 <p> March 3, 2024</p>
                             </div>
                          </div>
          
                     <div class="bottom-right">
+                        <i class="fa-solid fa-ellipsis"></i>
                              <h2>Notes 3</h2>
-                             <p>This is a sample notes printed here.</p><br>
-                             <p>Testing Notes are printed here.......</p>
+                             <p>This is a sample notes printed <br>here.</p><br>
+                             <p>Testing Notes are printed <br>here.......</p>
 
                              <div class="foot">
                                 <p> March 3, 2024</p>
@@ -168,7 +204,7 @@
 
 
         </div>
-       </div>
+    
    
     
 </body>
