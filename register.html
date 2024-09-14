@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body>
+    <form action="action_page.php" method="POST">
+      <div class="Registration">
+        <div>
+          <label for="fname">First name:</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="First Name"
+            required
+          />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="lname">Last name:</label>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="school-year">School Year:</label>
+          <input
+            type="school-year"
+            id="school-year"
+            name="school-year"
+            required
+          />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="pass">Password:</label>
+          <input
+            type="password"
+            id="pass"
+            name="pass"
+            maxlength="12"
+            required
+          />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Email" />
+        </div>
+
+        <div>
+          <label for="phone">Phone #:</label>
+          <input type="tel" id="phone" name="phone" placeholder="(+63)" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="bdate">Birthdate:</label>
+          <input type="date" id="bdate" name="bdate" />
+        </div>
+
+        <br />
+
+        <div>
+          <p>Gender</p>
+          <label for="Male.">Male.</label>
+          <input type="radio" id="Male." name="title" value="Male" />
+
+          <label for="Female.">Female.</label>
+          <input type="radio" id="Female." name="title" value="Female." />
+        </div>
+
+        <br />
+
+        <div>
+          <input type="reset" />
+        </div>
+
+        <br />
+
+        <div>
+          <input type="submit" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
