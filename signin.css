@@ -155,6 +155,7 @@ h3{
   
 }
 
-.input-box placeholder{
-    font-size: 100px;
+.input-box input{
+    font-size: 17px;
+    padding-left: 15px;
 }
