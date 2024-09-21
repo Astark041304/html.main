@@ -5,18 +5,18 @@
   scroll-behavior: smooth;
 }
 
-:root{
+:root {
   --hover-color: #733c7a;
   --button-color: #00b594;
   --bg-color: #cbe5fe;
-  --white-color: #ffff;  
+  --white-color: #ffff;
 }
 
-header span{
+header span {
   color: #00b594;
 }
 
-body{
+body {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -25,7 +25,6 @@ body{
   padding: 20px;
 }
 
-
 .header {
   position: fixed;
   width: 100%;
@@ -33,8 +32,6 @@ body{
   left: 0;
   padding: 2.5rem 2%;
   padding-left: 2.5%;
-  background: rgba(0.5, 0.1, 0.5, 0.1);
-  backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -67,19 +64,18 @@ body{
   color: var(--hover-color);
 }
 
-
-.main-container{
- max-width: 700px;
- width: 100%;
- height: 650px;
- background-color: var(--bg-color);
- padding: 25px 30px;
- border-radius: 8px;
- box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+.main-container {
+  margin-top: 80px;
+  max-width: 700px;
+  width: 100%;
+  height: 600px;
+  background-color: var(--bg-color);
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-
-.main-container header{
+.main-container header {
   font-size: 30px;
   font-weight: 500;
   position: relative;
@@ -87,31 +83,28 @@ body{
   text-align: center;
   align-items: center;
   margin-left: -15px;
- }
+}
 
- .main-container form .user-details{
+.main-container form .user-details {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px 0 12px 0;
- }
+}
 
- form .user-details .input-box{
+form .user-details .input-box {
   width: calc(100% / 2 - 20px);
   margin-bottom: 15px;
- }
+}
 
- 
- .user-details .input-box details{
+.user-details .input-box details {
   display: block;
   font-weight: 500;
   margin-bottom: 5px;
+}
 
- }
-
-
- .user-details .input-box input{
-  height: 45px;
+.user-details .input-box input {
+  height: 35px;
   width: 100%;
   outline: none;
   border-radius: 5px;
@@ -121,9 +114,9 @@ body{
   border-bottom-width: 2px;
   transition: all 0.2 smooth;
   margin-top: 10px;
- }
+}
 
- .btn{
+.btn {
   position: absolute;
   width: 280px;
   height: 40px;
@@ -136,94 +129,86 @@ body{
   margin-top: 50px;
 }
 
-.btn a{
+.btn a {
   text-decoration: none;
   color: var(--white-color);
   font-weight: 500;
 }
 
- form .button input:hover{
+form .button input:hover {
   background: var(--hover-color);
- }
+}
 
-
- /* Responsive */
- @media screen and (max-width: 500px){
-  .container{
+/* Responsive */
+@media screen and (max-width: 500px) {
+  .container {
     max-width: 100%;
   }
-  
- form .user-details .input-box{
-  margin-bottom: 15px;
-  width: 100%;
- }
 
- form .gender-details .category{
-  width: 100%;
- }
+  form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
 
- .main-container form .user-details{
-  max-height: 300px;
- }
+  form .gender-details .category {
+    width: 100%;
+  }
 
- .user-details::-webkit-scrollbar{
-  width: 0;
- }
+  .main-container form .user-details {
+    max-height: 300px;
+  }
 
- .form :where(.gender-option, .gender){
-  row-gap: 15px;
-  margin-top: 50px;
-  
- }
+  .user-details::-webkit-scrollbar {
+    width: 0;
+  }
 
- .main-container .reg .btn{
-  width: 100%;
-  margin-left: 15px;
-  
- }
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
+    margin-top: 50px;
+  }
 
- #reg {
-  width: 100%;
-  margin-left: -15px;
+  .main-container .reg .btn {
+    width: 100%;
+    margin-left: 15px;
+  }
 
- }
+  #reg {
+    width: 100%;
+    margin-left: -15px;
+  }
+}
 
- }
-
- .form :where(.gender-option, .gender){
+.form :where(.gender-option, .gender) {
   display: flex;
   align-items: center;
   column-gap: 35px;
   margin-top: 5px;
   font-size: 18px;
- }
+}
 
- .form .gender-box p{
+.form .gender-box p {
   font-size: 18px;
- }
+}
 
- .form .gender-box .gender input{
+.form .gender-box .gender input {
   font-size: 18px;
- }
+}
 
- .form .gender-box{
+.form .gender-box {
   margin-top: -80px;
   margin-left: 340px;
- }
- .form :where(.gender input, .gender label){
+}
+.form :where(.gender input, .gender label) {
   cursor: pointer;
- }
+}
 
- .form .gender{
+.form .gender {
   column-gap: 5px;
   cursor: pointer;
- }
+}
 
- 
- #reg {
+#reg {
   margin-left: 435px;
   margin-bottom: -40px;
   margin-top: 10px;
 }
-
-
